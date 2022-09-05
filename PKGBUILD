@@ -20,7 +20,7 @@ _relname="cu2qu"
 pkgname="${_langname}-${_relname}"
 pkgver=1.6.7.post1
 pkgrel=2
-pkgdesc='Cubic-to-quadratic bezier curve conversion'
+pkgdesc="Cubic-to-quadratic bezier curve conversion"
 arch=(
   "any"
 )
@@ -47,7 +47,7 @@ source=(
   "https://files.pythonhosted.org/packages/source/${_relname::1}/$_relname/$_tarname.zip"
 )
 sha512sums=(
-  'a0dbed28403ae2bbdbf4719d9e34d5861250dc1510129d658b336d773a5153e0955d5f2ff018f5f93d88394658918fad2a58aebb99cef998d4cf9128a300f489'
+  "a0dbed28403ae2bbdbf4719d9e34d5861250dc1510129d658b336d773a5153e0955d5f2ff018f5f93d88394658918fad2a58aebb99cef998d4cf9128a300f489"
 )
 
 build() {
